@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abri esse site em varios dispositivos diferentes ou aumente e diminua o tamanho do navegador.</p>
+
+<picture>
+    <source media="(max-width: 730px)" srcset="imagem/p.png" type="image/png">
+    <source media="(max-width: 1020px)" srcset="imagem/m.png" type="image/png">
+    <img src="imagem/g.png" alt="imagem">
+</picture>
+
+<h1>Reproduzindo audio</h1>
+<p>Vamos aprender a reproduzir audio em HTML5</p>
+<audio src="musicas/High Noon - TrackTribe.mp3"controls autoplay></audio>
+
+
+(!--)E bom ter o audio em varios formatos, pois se o navegador do usuario, que estiver acessando seu site não for compativel com um formato, ele rodara o ourto. Igual aprendemos na aula de imagens
+
+<h2>Ex:</h2>
+<audio preload="metadata" autoplay controls
+    <source src="musicas/High Noon - TrackTribe.mp3" type="audio/mpeg">
+    <source src="musicas/High Noon - TrackTribe.ogg" type="audio/ogg">
+    <source src="musicas/High Noon - TrackTribe.wva" type="audio/wva">
+</audio>
+
+<p>Infelizmente seu navegador nao consegue reproduzir audio. <a href="musicas/High Noon - TrackTribe.mp3">clique aqui para baixar o audio</a></p>
+
+
+</body>
+</html>

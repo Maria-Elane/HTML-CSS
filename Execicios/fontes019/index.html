@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+      @font-face {
+        font-family: valentine;
+        src: url('Valentine.otf') format(opentype);
+      }
+      @font-face {
+            font-family:Bad Signal ;
+            src: url('Bad Signal.otf') format(opentype);
+        }
+            /*Tipos de formatos: 
+            -Opentype(otf)
+            -Truetype(ttf)
+            -Tmbedded-opentype
+            -Truetype-aat (Aple advencd typography)
+            -Svg*/
+
+
+        }
+        
+        body{
+            font-family:'Valentine';
+            font-weight:normal;
+        }
+        #principal{
+            text-align:center;
+           font: bold 5em 'Valentine';
+           text-decoration:underline;
+        }
+        h1{
+            text-align:center;
+            font: bold 5em 'Bad Signal';
+           text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal">Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quo rem temporibus! Dolor vero libero placeat quis adipisci, maiores deserunt mollitia et distinctio aspernatur, temporibus aliquid. Ut rerum quae sint?</p>
+    <h1>Texto</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A similique porro illum dolore aspernatur. Fugiat maiores iste quas eum corporis repellendus! Tempora delectus sapiente minus inventore rerum quos, saepe reprehenderit?</p>
+    
+</body>
+</html>

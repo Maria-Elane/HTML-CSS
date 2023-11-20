@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+   
+}
+
+h1{
+    text-align:center;
+}
+
+a:visited{
+    color:black;
+}
+
+
+a:hover{
+    text-decoration:underline;
+    color:rgb(59, 59, 250);
+}
+
+a:active{
+   color:rgb(255, 0, 0);
+
+}
+
+a::before{
+    content: '[link]';
+    text-decoration:none;
+    font-weight:normal;
+    color:darkgray;
+}
+
+a::after{
+    content: '[link]';
+    text-decoration:none;
+    font-weight:normal;
+    color:darkgray;
+}
+
