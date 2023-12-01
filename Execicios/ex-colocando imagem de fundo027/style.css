@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#contain{
+    position:relative;
+    height:92vh;
+    background-color:purple;
+
+}
+
+#conteudo{
+    position:absolute;
+    left:50%;
+    top:50%;
+    height:200px;
+    width:400px;
+    background-color:yellow;
+
+    transform:translate(-50%,-50%);
+}
